@@ -1,0 +1,50 @@
+{
+  "name": "reac-redux-pro",
+  "version": "1.0.0",
+  "description": "react redux avanced",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "devNoServererver": "webpack --d --watch",
+    "dev": "webpack-dev-server --content-base=public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "react",
+    "react-dom",
+    "style-components",
+    "typescript",
+    "node",
+    "javascript",
+    "hoc",
+    "redux",
+    "store"
+  ],
+  "author": "Rafael Briceño TW @rafaelbm91 <rafaelbm9126@gmail.com/>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/prop-types": "^15.5.5",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "react-hot-loader": "^4.3.3",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
