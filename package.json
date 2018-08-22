@@ -1,13 +1,12 @@
 {
-  "name": "reac-redux-pro",
+  "name": "todo-list-react-redux",
   "version": "1.0.0",
   "description": "react redux avanced",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack",
-    "devNoServererver": "webpack --d --watch",
-    "dev": "webpack-dev-server --content-base=public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "webpack --mode production ./src/index.tsx --output ./public/js/bundle.js",
+    "start": "node ./server/index.js",
+    "dev": "webpack-dev-server --content-base=public"
   },
   "keywords": [
     "webpack",

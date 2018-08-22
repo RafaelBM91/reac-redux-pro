@@ -1,3 +1,3 @@
-# React Redux Pro
+# Todo List - React Redux Pro
 
 ## Example Avanced
